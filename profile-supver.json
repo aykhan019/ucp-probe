@@ -1,0 +1,3 @@
+{ "ucp": { "version": "2025-01-01",
+  "supported_versions": { "2026-08-25": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/supver-fetch" },
+  "capabilities": { "dev.ucp.shopping.catalog.search": [ { "version":"2025-01-01" } ] } } }
