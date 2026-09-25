@@ -1,0 +1,27 @@
+{
+  "ucp": {
+    "version": "2026-08-25",
+    "endpoint": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/ucp-endpoint",
+    "icon": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/ucp-icon",
+    "$schema": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/ucp-schema",
+    "services": {
+      "dev.ucp.shopping": [
+        { "version": "2026-08-25", "spec": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/spec", "transport": "mcp", "endpoint": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/svc-endpoint", "schema": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/svc-schema" }
+      ]
+    },
+    "capabilities": {
+      "dev.ucp.shopping.catalog.search": [
+        { "version": "2026-08-25", "spec": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/cap-spec", "schema": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/cap-schema", "documentation": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/cap-doc", "icon": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/cap-icon", "url": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/cap-url" }
+      ],
+      "dev.ucp.shopping.catalog.lookup": [
+        { "version": "2026-08-25", "spec": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/lk-spec", "schema": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/lk-schema", "documentation": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/lk-doc" }
+      ],
+      "dev.shopify.catalog.global": [
+        { "version": "2026-08-25", "spec": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/gl-spec", "schema": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/gl-schema", "extends": ["dev.ucp.shopping.catalog.search", "dev.ucp.shopping.catalog.lookup"] }
+      ]
+    },
+    "payment_handlers": {
+      "com.example.pay": [ { "version":"2026-08-25", "schema": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/pay-schema", "config": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/pay-config", "endpoint": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/pay-endpoint" } ]
+    }
+  }
+}
