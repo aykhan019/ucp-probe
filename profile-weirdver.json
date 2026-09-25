@@ -1,0 +1,5 @@
+{ "ucp": { "version": "1999-09-09",
+  "capabilities": {
+    "dev.ucp.shopping.catalog.search": [ { "version":"1999-09-09", "schema":"https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/w-schema" } ],
+    "dev.ucp.shopping.catalog.lookup": [ { "version":"2026-08-25" } ]
+  } } }

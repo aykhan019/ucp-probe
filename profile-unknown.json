@@ -1,0 +1,8 @@
+{ "ucp": { "version": "2026-08-25",
+  "services": { "dev.ucp.shopping": [ { "version":"2026-08-25","spec":"https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/u-spec","transport":"mcp","endpoint":"https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/u-endpoint","schema":"https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/u-schema" } ] },
+  "capabilities": {
+    "dev.ucp.shopping.catalog.search": [ { "version":"2026-08-25" } ],
+    "dev.ucp.shopping.catalog.lookup": [ { "version":"2026-08-25" } ],
+    "com.evil.custom": [ { "version":"2026-08-25", "spec":"https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/u-cspec", "schema":"https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/u-cschema", "foo":"bar" } ]
+  },
+  "payment_handlers": {} } }
