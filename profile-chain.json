@@ -1,0 +1,22 @@
+{
+  "ucp": {
+    "version": "2026-08-25",
+    "services": {
+      "dev.ucp.shopping": [
+        { "version": "2026-08-25", "spec": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/spec-service", "transport": "mcp", "schema": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/schema-service.json" }
+      ]
+    },
+    "capabilities": {
+      "dev.ucp.shopping.catalog.search": [
+        { "version": "2026-08-25", "spec": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/spec-search", "schema": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/schema-search.json" }
+      ],
+      "dev.ucp.shopping.catalog.lookup": [
+        { "version": "2026-08-25", "spec": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/spec-lookup", "schema": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/schema-lookup.json" }
+      ],
+      "dev.shopify.catalog.global": [
+        { "version": "2026-08-25", "spec": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/spec-global", "schema": "https://webhook.site/3dd95fdc-a0ff-48af-b8c9-6888491e3832/schema-global.json", "extends": ["dev.ucp.shopping.catalog.search", "dev.ucp.shopping.catalog.lookup"] }
+      ]
+    },
+    "payment_handlers": {}
+  }
+}
